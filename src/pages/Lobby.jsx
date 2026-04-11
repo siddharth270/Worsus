@@ -21,7 +21,7 @@ export default function Lobby({ room, player, players, onStartGame, onLeave }) {
     setLoading(true)
     const word         = getRandomWord(selectedCat)
     const shuffled     = [...players].sort(() => Math.random() - 0.5)
-    const chameleonId  = shuffled[0].id
+    const chameleonId  = players[Math.floor(Math.random() * players.length)].id
     const playerOrder  = shuffled.map(p => p.id)
     await onStartGame({ category: selectedCat, word, chameleonId, playerOrder })
     setLoading(false)
