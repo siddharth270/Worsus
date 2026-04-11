@@ -3,26 +3,35 @@ export const CATEGORIES = {
     label: 'Food',
     emoji: '🍕',
     words: [
-      'Pizza', 'Sushi', 'Tacos', 'Burger', 'Ramen',
-      'Curry', 'Paella', 'Falafel', 'Dumplings', 'Croissant',
-      'Cheesecake', 'Tiramisu', 'Pho', 'Bibimbap', 'Lasagna',
-      'Shawarma', 'Ceviche', 'Baklava', 'Kimchi', 'Risotto',
-      'Gyoza', 'Churros', 'Hummus', 'Peking Duck', 'Moussaka',
-      'Pad Thai', 'Burrito', 'Nachos', 'Waffles', 'Pancakes',
-      'Steak', 'Lobster', 'Oysters', 'Escargot', 'Fondue',
-      'Goulash', 'Pierogi', 'Souvlaki', 'Tagine', 'Injera',
-      'Jollof Rice', 'Biryani', 'Dim Sum', 'Tempura', 'Tonkatsu',
-      'Bulgogi', 'Laksa', 'Nasi Goreng', 'Rendang', 'Satay',
-      'Tom Yum', 'Poke Bowl', 'Acai Bowl', 'Granola', 'Quiche',
-      'Crepes', 'Eclairs', 'Macaron', 'Cannoli', 'Profiteroles',
-      'Gelato', 'Sorbet', 'Mochi', 'Gulab Jamun', 'Baklava',
-      'French Toast', 'Eggs Benedict', 'Shakshuka', 'Gazpacho', 'Borscht',
-      'Clam Chowder', 'Minestrone', 'Ratatouille', 'Coq au Vin', 'Cassoulet',
-      'Beef Wellington', 'Roast Duck', 'Lamb Chops', 'Spare Ribs', 'Pulled Pork',
-      'Fish and Chips', 'Bangers and Mash', 'Shepherd\'s Pie', 'Scotch Egg', 'Haggis',
-      'Poutine', 'Smoked Salmon', 'Caviar', 'Truffle', 'Foie Gras',
-      'Pretzel', 'Bagel', 'Brioche', 'Sourdough', 'Naan',
-      'Empanadas', 'Tamales', 'Arepas', 'Cevapi', 'Dolma',
+      // ── Fast food & street food ──
+      'Pizza', 'Burger', 'Hot Dog', 'Tacos', 'Sandwich',
+      'Fries', 'Nachos', 'Popcorn', 'Pretzel', 'Wrap',
+      // ── Asian staples ──
+      'Sushi', 'Ramen', 'Dumplings', 'Fried Rice', 'Noodles',
+      'Curry', 'Pad Thai', 'Spring Rolls', 'Satay', 'Dim Sum',
+      'Tempura', 'Gyoza', 'Bibimbap', 'Pho', 'Biryani',
+      // ── Breads & breakfast ──
+      'Pancakes', 'Waffles', 'Croissant', 'Bagel', 'Toast',
+      'Omelette', 'Scrambled Eggs', 'Cereal', 'Granola', 'Muffin',
+      // ── Comfort food ──
+      'Lasagna', 'Pasta', 'Mac and Cheese', 'Grilled Cheese', 'Soup',
+      'Steak', 'Fried Chicken', 'Meatballs', 'Mashed Potatoes', 'Risotto',
+      'Pulled Pork', 'Spare Ribs', 'Lamb Chops', 'Fish and Chips', 'Poutine',
+      // ── Snacks ──
+      'Chips', 'Cookies', 'Crackers', 'Donuts', 'Brownie',
+      'Candy', 'Chocolate', 'Gummy Bears', 'Lollipop', 'Marshmallow',
+      // ── Desserts ──
+      'Ice Cream', 'Cheesecake', 'Tiramisu', 'Brownie', 'Waffles',
+      'Churros', 'Gelato', 'Sorbet', 'Mochi', 'Crepes',
+      'Macaron', 'Eclair', 'Cupcake', 'Tart', 'Pudding',
+      // ── Fruits & veggies ──
+      'Watermelon', 'Strawberry', 'Avocado', 'Mango', 'Pineapple',
+      'Banana', 'Grapes', 'Cherry', 'Coconut', 'Lemon',
+      // ── Drinks ──
+      'Smoothie', 'Milkshake', 'Lemonade', 'Coffee', 'Hot Chocolate',
+      // ── Global faves ──
+      'Shawarma', 'Falafel', 'Hummus', 'Burrito', 'Sashimi',
+      'Paella', 'Kimchi', 'Churros', 'Baklava', 'Naan',
     ],
   },
   animal: {
